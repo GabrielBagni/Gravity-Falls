@@ -26,16 +26,7 @@ p{
     text-align: justify;
     text-indent: 30px;
 }
-a{
-    font-family: Ubuntu, sans-serif;
-    font-weight: normal;
-    color: #E0DEAF;
-}
-ol{
-    font-family: Ubuntu, sans-serif;
-    font-weight: normal;
-    color: #E0DEAF;
-}
+
 h1{
     font-family: 'Poiret One', sans-serif;
     font-size: 3em;
@@ -44,9 +35,32 @@ h1{
 }
 h2{
     font-family: 'Courier Prime', sans-serif;
-    color: rgb(221, 221, 221);
+    color: #dddddd;
 }
 h3{
     font-family: 'Courier Prime', sans-serif;
+    color: #ffffff;
+}
+div{
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    text-align: center;
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    font-family: Ubuntu, sans-serif;
+    display: block;
+    color: black;
+}
+#menu{
+    font-family: Ubuntu, arial, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+ol{
+    font-family: Ubuntu, arial, sans-serif;
+    font-size: 14px;
     color: white;
 }
