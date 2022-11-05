@@ -1,11 +1,9 @@
 @charset "UTF-8";
-/*h1*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-/*h2 & h3*/
+
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
-/*p*/
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-/*a*/
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body{
@@ -32,6 +30,7 @@ h1{
     font-size: 3em;
     color: white;
     text-shadow: 0px 0px 10px white;
+    text-align: center;
 }
 h2{
     font-family: 'Courier Prime', sans-serif;
@@ -48,6 +47,7 @@ div{
 }
 div > p{
     display: none;
+    text-align: center;
 }
 div:hover > p{
     font-family: Ubuntu, sans-serif;
@@ -58,9 +58,34 @@ div:hover > p{
     font-family: Ubuntu, arial, sans-serif;
     font-size: 16px;
     color: white;
+    background-color: #116152;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
 }
-ol{
+img{
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px #116152;
+}
+img.tree{
+    border: none;
+    box-shadow: none;
+}
+video{
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px #116152;
+}
+a{
+    color: white;
+    text-decoration: none;
     font-family: Ubuntu, arial, sans-serif;
     font-size: 14px;
-    color: white;
+    background-color: #1ca189;
+    padding: 5px;
+    border-radius: 5px;
+}
+a:hover{
+    text-shadow: 0px 0px 10px white;
 }
